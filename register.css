@@ -1,0 +1,106 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+
+#background {
+	background-color: #000;
+	background-image: url(../images/bg.jpg);
+	background-position: center;
+	background-size: cover;
+	display: table;
+	height: 100%;
+	width: 100%;
+	min-width: 1024px;
+}
+
+.img-logo{
+	height: 40px;
+	width: 132px;
+	display: block;
+	background: url('imagens/spotify.svg') no-repeat; /*imagem escalável sem repetição */
+	background-size: contain;
+	color: transparent;
+}
+
+#loginContainer * {
+	color: #fff;
+	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	line-height: 1em;
+	font-weight: normal;
+	box-sizing: border-box;
+}
+
+.form-control::-webkit-input-placeholder { color: white; }  /* WebKit, Blink, Edge */
+.form-control:-moz-placeholder { color: white; }  /* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder { color: white; }  /* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder { color: white; }  /* Internet Explorer 10-11 */
+.form-control::-ms-input-placeholder { color: white; }  /* Microsoft Edge */
+
+#loginContainer {
+	margin: 0 auto;
+	position: relative;
+    max-width: 1024px;
+}
+
+#inputContainer {
+	padding: 45px;
+}
+
+#inputContainer h2 {
+	text-align: center;
+}
+
+#inputContainer input[type="text"],
+#inputContainer input[type="email"],
+#inputContainer input[type="password"] {
+	display: block;
+	border: none !important;
+	border-bottom: 1px solid #fff !important;
+	background-color:rgba(0,0,0,0);
+	height: 27px;
+	width: 100%;
+	line-height: 27px;
+}
+
+#inputContainer label {
+	color: #a0a0a0;
+	font-size: 13px;
+	margin-top: 15px;
+}
+
+#inputContainer button{
+	border-radius: 200px;
+	border: none;
+	display: block;
+	font-size: 14px;
+	letter-spacing: 1px;
+	margin: 20px auto;
+	width: 100%;
+	height: 41px;
+	background-color: #1db954;
+
+}
+
+#inputContainer button:hover{
+	background-color: #1ed760;	
+	transition-delay: 0.1s;
+}
+
+
+.hasAccountText span{
+	font-size: 15px;
+}
+
+.hasAccountText {
+	text-align: center;
+}
+
+#registerForm {
+	display: none;
+}
+
+
+
+
