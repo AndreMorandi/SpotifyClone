@@ -1,35 +1,32 @@
+<!--     NAVBAR     -->
 <div id="navBarContainer">
 	<nav class="navBar">
 
-		<a href="index.php" class="logo">
-			<img src="assets/images/icons/logo_maior.png">
+		<a href="indexTest.php" class="logo"> <!--TO DO: rename the index page-->
+			<img src="assets/images/icons/spotify.png" title="Spotify">					
 		</a>
 
 		<div class="group">
-
 			<div class="navItem">
 				<a href="search.php" class="navItemLink">Search
 					<img src="assets/images/icons/search.png" class="icon" alt="Search">
-				</a>
+				</a><!--Page Not Created Yet-->
 			</div>
-
 		</div>
 
 		<div class="group">
-
 			<div class="navItem">
-				<a href="browse.php" class="navItemLink">Browse</a>
+				<a href="#" class="navItemLink">Browse</a>
 			</div>
 
 			<div class="navItem">
-				<a href="yourMusic.php" class="navItemLink">Your Music</a>
+				<a href="#" class="navItemLink">Your Music</a>
 			</div>
 
 			<div class="navItem">
-				<a href="profile.php" class="navItemLink">IDK yet</a>
+				<a href="#" class="navItemLink">Profile</a>
 			</div>
-
 		</div>
 
 	</nav>
-</div>
+</div><!--END OF NAVBAR CONTAINER-->
